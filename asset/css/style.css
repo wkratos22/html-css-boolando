@@ -18,13 +18,19 @@ body{
 
 
 .foto{
+    
     margin-top: 30px;
     display: inline-block;
     position: relative;
     
     
     
+    
+    
+    
 }
+
+
 
 .cuore{
     position: absolute;
@@ -36,9 +42,10 @@ body{
     
 }
 
+
 .sconto{
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 0px;
     background-color: rgb(255, 0, 0);
     color: white;
@@ -50,7 +57,7 @@ body{
 
 .sostenibilita{
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 0px;
     background-color: green;
     color: white;
@@ -67,7 +74,7 @@ body{
     margin-top: 1px;
     display: inline-block;
     position: absolute;
-    bottom: -70px;
+    bottom: -40px;
     left: 0;
     
 }
@@ -76,7 +83,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: -20px;
     position: absolute;
-    bottom: -100px;
+    bottom: -70px;
     
 
     
@@ -89,7 +96,7 @@ body{
     padding: 0px;
     display: inline-block;
     position: absolute;
-    bottom: -110px;
+    bottom: -85px;
     left: 0px;
     
 }
@@ -98,7 +105,7 @@ body{
     display: inline;
     display: inline-block;
     position: absolute;
-    bottom: -110px;
+    bottom: -85px;
     left: 55px;
 }
 
@@ -106,4 +113,37 @@ body{
     margin-top: -35px;
 }
 
+
+
+
+.foto-inferiori{
+    margin-top: 110px;
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+
+.immagine1{
+    display: block;
+}
+
+
+.immagine2{
+    display: none;
+}
+
+#cambioimmagine{
+    float: left;
+}
+
+#cambioimmagine:hover .immagine1{
+    display: none;
+}
+
+#cambioimmagine:hover .immagine2{
+    display: block;
+}
 
