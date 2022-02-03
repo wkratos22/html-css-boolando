@@ -1,0 +1,86 @@
+
+.reset{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.B-color{
+    background-color: red;
+}
+
+
+.foto{
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.cuore{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px;
+    padding-right: 10px;
+    
+}
+
+.sconto{
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    
+    
+}
+
+.sostenibilita{
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    margin-left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.informazioni{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1px;
+}
+
+.informazioni2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -20px;
+}
+
+.prezzo-scontato{
+    color: red;
+    margin-top: -80px;
+    display: inline;
+    padding: 0px;
+}
+
+.prezzo{
+    display: inline;
+}
+
+.margin-top{
+    margin-top: -20px;
+}
